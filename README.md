@@ -4,7 +4,7 @@ This project sets up a simple monitoring stack using Docker, Prometheus, and Gra
 
 ## File setup
 
-First, I create the docker-compose.yml file which includes the configuration for the Nginx server, the Nginx Exporter and Prometheus. In the same directory, I create the prometheus.yml which tells Prometheus to scrape the Nginx Exporter running at nginx-exporter:9113. Then I run Docker Compose.
+First, I create the docker-compose.yml file which includes the configuration for the Nginx server, the Nginx Exporter and Prometheus. In the same directory, I create the prometheus.yml which tells Prometheus to scrape the Nginx Exporter running at nginx-exporter:9113. I do not include Grafana as I have already installed it locally on my Ubuntu 24.04 machine. Then I run Docker Compose.
 
 ## Check server and metrics
 
